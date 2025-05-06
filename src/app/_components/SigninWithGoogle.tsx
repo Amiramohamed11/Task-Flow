@@ -4,6 +4,6 @@ import React from 'react'
 
 export default function SigninWithGoogle() {
   return (
-    <button type='button' onClick={()=> signIn('google')} className='bg-amber-500 m-5 rounded-lg p-5 '>Signin With Google</button>
+    <button type='button' onClick={()=> signIn('google')} className='border-2 m-5 rounded-lg p-5 '>Google</button>
   )
 }

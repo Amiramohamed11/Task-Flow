@@ -12,7 +12,7 @@ export default function Navbar() {
         <li className='mr-5'><Link href="">AR</Link></li>
         <li className='mr-5'><Link href="">Es</Link></li>
       </ul>
-      <button className='bg-amber-100 p-2 rounded-lg'>Sign in</button>
+      <button  className='bg-amber-100 p-2 rounded-lg'><Link href={"/signin"}>Sign in</Link></button>
     </div>
     </div>
   )
